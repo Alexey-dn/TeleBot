@@ -1,6 +1,6 @@
 import telebot
 from base_data import cur_list, TOKEN
-# from extensions import ConvertionException, CryptoConverter
+from extensions import ConvertionException, CryptoConverter
 
 
 bot = telebot.TeleBot(TOKEN)
